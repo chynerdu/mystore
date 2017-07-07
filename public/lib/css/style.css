@@ -1,0 +1,1091 @@
+.clearfix{
+    clear:both;
+}
+
+#body1{
+    background-size:100%;
+    background: url(/lib/images/mbg1.jpg) no-repeat;
+    width:100%;
+     height:600px;
+  
+
+    } 
+     .enter{
+   
+    text-align:center;
+   
+ 
+}
+.well{
+    border:1px solid black;
+    background-color:#e8ffff;
+    width:100%;
+    margin-right:2px;
+    padding-right:2px;
+}
+.enter .btn{
+    width:300px;
+    height:50px;
+    background-color: rgba(24, 201, 210, 0.84);
+    border-radius:30px;
+    
+    
+}
+
+
+#header-msg h2{
+    color:white;
+     font-size:4rem;
+     font-weight:800;
+    text-align:center;
+}
+#header-msg h3{
+    color:white;
+      font-weight:500;
+    letter-spacing:0.7rem;
+    font-size:3rem;
+    font-family:impact;
+     margin:0px;
+    padding:0px;
+ 
+}
+
+#header-msg{
+    color:white;
+    font-weight:bold;
+    padding:10%;
+    
+   
+    
+}
+
+ #header_msg1 h2{
+    font-size:4rem;
+     font-weight:800;
+    text-align:center;
+}
+
+
+
+
+    .navbar-header h2{
+     font-size:1.5rem;
+}  
+.navbar-brand h2{
+    color:#384799;
+}
+
+#header-msg h2{
+    color:white;
+    font-size: 2.5em;
+     font-family: 'Roboto Slab', serif;
+}
+#header-msg h3{
+    color:white;
+      font-weight:500;
+    letter-spacing:0.7rem;
+    font-size:3rem;
+   font-family: 'Roboto Slab', serif;
+     margin:0px;
+    padding:0px;
+ 
+}
+
+#header-msg{
+    color:white;
+    font-weight:bold;
+    padding:10%;
+    
+}
+
+#top_nav{
+
+    color:white;
+    height: 33.5px;
+}
+#nav_menu{
+    
+      margin:none;
+      margin-left:7.5%;
+       letter-spacing:1px;
+      font-size:11.5px;
+     
+      
+      
+}
+#nav_menu li a{
+      color:white;
+      border-right:1px solid white;
+      height:7px;
+     line-height:7px;     
+}
+
+#nav_menu li a:hover{
+    color: rgba(24, 201, 210, 0.84);
+}
+#call{
+
+     padding-right:7%;
+}
+#call li a{
+    color:white;
+      line-height:7px;
+      font-size:11.3px;
+    
+   
+}
+.navbar-header h1{
+ font-size: 2.7em;
+ font-weight:400;
+ color: #18C9D2;
+ font-family: 'Roboto Slab', serif;
+}
+.navbar-header h1 span{
+      color: #333;
+}
+ 
+ .h_nav h4{
+     font-size:1em;
+     margin-bottom: 4%;
+     border-bottom:1px solid black;
+     line-height: 1.8em;
+     text-transform: uppercase;
+ }
+ .h_nav  ul li{
+     display:block;
+     margin:4%;
+ }
+ .h_nav ul li a{
+     display:block;
+     text-transform: uppercase;
+     font-size:0.95em;
+     line-height:1.8em;
+     color:#555;
+ }
+
+ .jacket_desc{
+     float:right;
+     width:28%;
+ }
+ .title{
+     font-size: 1.25em;
+     display:block;
+     font-family:'Roboto Slab', serif;
+ }
+
+ .fashion_side h3{
+     text-align:center;
+     font-size:2.2em;
+     font-weight:570;
+     font-family: 'Roboto Slab', serif;
+     letter-spacing: 0.6px;
+     line-height:1px;
+     padding-bottom:5%;
+
+ }
+  figure{
+     background-color:  rgba(24, 201, 210, 0.84);
+     width:100%;
+     height:100%;
+    margin-bottom:30%;
+    
+ }
+ figure img{
+      opacity:0.4;
+ }
+ figcaption{
+     position:absolute;
+     top:30px;
+     bottom:30px;
+     left:30px;
+     right:30px;
+        padding:20%;
+    
+     
+ }
+  figcaption ::before{
+       border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+  }
+   figcaption ::after{
+       border-left: 1px solid white;
+        border-right: 1px solid white;
+
+  }
+
+ figcaption h4{
+       font-family: 'Roboto Slab', serif;
+       font-size:1.7em;
+       font-weight:500;
+       color:white;
+ }
+
+ figcaption p{
+    
+ padding:20%;
+
+ }
+
+ figcaption p a{
+     padding: 8px 15px;
+      background-color:white;
+      text-transform:uppercase;
+      font-size:1.15em;
+      font-weight:400;
+      color:#333;
+ }
+
+
+ #products  li a{
+     font-size:1.2em;
+     font-family: 'Roboto Slab', serif;
+     color:black;
+ }
+  #products{
+     
+     padding-left: 30%;
+
+  }
+  #products li a:hover{
+     background-color: rgba(24, 201, 210, 0.84);
+ }
+
+ .product_view{
+     padding:4%;
+     
+ }
+ .product_view h3{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+ }
+  .product_view h4{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+     color: rgba(24, 201, 210, 0.84);
+     text-align:center;
+ }
+ #single_product{
+  border:1px solid #e0e0e0;
+  margin-right:3.5%;
+ }
+ #single_product img{
+     padding:5% 1% 5% 1%;
+ }
+ .shop_1 {
+     top:38%;
+     left:36%;
+     position:absolute;
+     font-size:1.04em;
+     font-weight:400;
+    
+     display:none;
+     
+ }
+
+ .shop_1 a{
+     padding:20% 40% 20% 40%;
+ 
+ }
+ #single_product:hover .shop_1{
+ 
+     display:block;
+    
+ }
+  #single_product:hover .shop_1 a{
+     background-color:rgba(24, 201, 210, 0.84);
+    color:white;
+   
+   
+ }
+ .middle_content{
+     padding-top:4.5em;
+    
+ }
+ .middle_side{
+     background: url(/lib/images/middle.jpg) no-repeat;
+     min-height:410px;
+     background-size:cover;
+     
+ }
+ .middle_side h3{
+     color:white;
+     font-size:2.6em;
+     font-weight:500;
+     font-family: 'Roboto Slab', serif;
+    
+ }
+  .middle_side p{
+     color:rgba(24, 201, 210, 0.84);
+     font-size:1.5em;
+     font-weight:500;
+  
+ }
+ .middle_text{
+     text-align:center;
+     padding-top:10em;
+ }
+ .client_side{
+     padding: 4em 0 4em 0;
+ }
+
+  .tp--slider-multiple .item{
+     max-height:40px; 
+     background:black;
+     width:auto;
+     background-color:transparent;
+ }
+   .tp--slider-multiple .item img{
+     max-height:30px; 
+     -webkit-filter:opacity(70%);
+     -webkit-filter:contrast(150%);
+      width:90px;
+ }
+ 
+ .clients{
+      max-height:40px; 
+     background:black;
+     width:auto;
+      -webkit-filter:opacity(90%);
+       
+ }
+ .footer1 p a{
+     text-transform:capitalize;
+     font-size:1em;
+     color:black
+ }
+ .footer_col{
+     width:20%;
+    
+ }
+ .footer_col p a{
+     color:#787878;
+ }
+ .footer2{
+     border-left:1px solid #484848;
+     
+ }
+ .footer2 hr{
+     
+     margin-left:10%;
+     
+ }
+ .footer2 h4,
+ .footer2 p a{
+     padding-left:10%;
+ }
+ #footer_nav{
+     height:60px;
+ }
+ .social{
+     padding-left:43%;
+     padding-top:10px;
+
+ }
+ .social li{
+     list-style: none;
+     display:inline-block;
+     
+    
+     
+ }
+ .social li a{
+     width:45px !important;
+     height:45px !important;
+     display:inline-block;
+      overflow:hidden;
+     position:relative;
+    
+    
+ }
+ .social li .soc1{
+     background:url(../images/social-1.png) 0 100% no-repeat;
+ }
+  .social li .soc2{
+     background:url(../images/social-2.png) 0 100% no-repeat;
+ }
+  .social li .soc3{
+     background:url(../images/social-3.png) 0 100% no-repeat;
+ }
+ .social li .soc1:hover, .social li .soc2:hover, .social li .soc2:hover{
+     background-position: 0 0%;
+ }
+ /*product page*/
+
+ #Product_pageheader{
+     text-align:center;
+     
+ }
+ #product_page{
+     padding:5%;
+     padding-top:20%;
+     margin-left:5%;
+
+ }
+ #product_page label{
+     font-size:1.5em;
+     letter-spacing:1px;
+ }
+
+ #product_page input{
+     box-shadow: 1px 1px 1px 1px  rgba(24, 201, 210, 0.84);
+ }
+ #product_page h2{
+     font-family: 'Roboto Slab', serif;
+       font-size:1.7em;
+       font-weight:600;
+       text-transform:uppercase;
+       letter-spacing:1px;
+ }
+ #single_product1{
+     padding-bottom:5%;
+    
+ }
+  #single_product1 img{
+     height:300px;
+ }
+ 
+  #single_product1 i,
+  #single_product2 i{
+     font-size:12px;
+ }
+ #single_product2{
+     padding:5%;
+     margin-left:10%;
+   
+ }
+
+ #modal_btn .btn{
+     background-color:rgba(24, 201, 210, 0.84);
+ }
+
+ #single_product2 img{
+     width:100%;
+     height:300px;
+     
+     border-radius:20px;
+ }
+.well{
+    border:1px solid black;
+    background-color:#e8ffff;
+}
+.modal-header{
+   background-color:#f0ffff; 
+}
+.modal-header h2{
+  margin-left:5%;
+}
+.modal-footer{
+   background-color:#f0ffff; 
+}
+ #w_sidebar{
+ padding-left:30%;
+ }
+  #w_sidebar h4{
+      color:white;
+      background-color:black;
+      padding-left:10%;
+        font-family: 'Roboto Slab', serif;
+       font-size:1.7em;
+       font-weight:500;
+  }
+  #w_sidebar li a{
+       font-family: 'Roboto Slab', serif;
+       font-size:1.4em;
+       font-weight:600; 
+  }
+ #w_nav1{
+    
+     border:1px solid silver;
+     border-top:none;
+ }
+ #cat{
+     padding-bottom:20%;
+ }
+ #cat1_check{
+
+     border-top:none;
+ }
+ #view_product button{
+     background-color: rgba(24, 201, 210, 0.84);
+     margin-bottom:7%;
+ }
+
+ #single_product_right{
+     width:100%;
+     margin-left:10%;
+    
+ }
+ #single_product h3{
+     text-align:center;
+     color:white;
+     background-color:black;
+      font-family: 'Roboto Slab', serif;
+ }
+
+#single_product h4{
+       text-align:center;
+     color:white;
+     background-color:black;
+      font-family: 'Roboto Slab', serif;
+}
+#single_product .btn{
+    margin-left:15%;
+    text-align:center;
+}
+#Product_pageheader h2{
+   font-weight:600;
+      font-size:2.5em;
+      font-family: 'Roboto Slab', serif;
+}
+#single_product2 h3,
+#single_product2 h4{
+    background-color:black;
+    color:white;
+    padding:3%;
+    font-family:'Roboto Slab', serif;
+    
+}
+
+#submit .btn{
+    color:black;
+}
+.order_info.ng-dirty.ng-invalid-required{
+    box-shadow:1px 1px 1px 1px red;
+}
+.order_info.ng-valid{
+     box-shadow:1px 1px 1px 1px lightgreen;
+}
+#single_product2_desc h3{
+       text-align:center;
+       font-weight:600;
+      font-size:1.7em;
+      font-family: 'Roboto Slab', serif;
+}
+#single_product2_desc h5{
+       
+    
+      font-size:1.5em;
+      font-family: 'Roboto Slab', serif;
+}
+
+
+#product_colors i{
+    float:left;
+    margin-left:12%;
+    
+}
+#terms h3{
+    font-size:1.0em;
+}
+#order{
+    padding:10%;
+}
+#place .btn{
+    background-color: rgba(24, 201, 210, 0.84);
+    margin-left:20%;
+    height:60px;
+    box-shadow:1px 1px 1px 1px brown; 
+    border-radius: 20px;
+}
+#place h3{
+    color:white;
+    text-transform:uppercase;
+    font-family:impact;
+    font-weight:300;
+}
+#color1{
+    background:white;
+    border: 1px solid black;
+    width:40px;
+    height:40px;
+    border-radius:5px;
+}
+#color2{
+    background:black;
+   border: 1px solid black;
+      width:40px;
+    height:40px;
+}
+#color3{
+    background:brown;
+     border: 1px solid black;
+   width:40px;
+    height:40px;
+}
+#color4{
+    background:grey;
+     border: 1px solid black;
+    width:40px;
+    height:40px;
+}
+#quantity{
+    padding:5%;
+}
+#quantity input{
+    width:15%;
+    box-shadow:1px 1px 1px 1px brown;
+    
+}
+#order label h3{
+     font-size:1.5em;
+      font-family: 'Roboto Slab', serif;
+}
+#order h2{
+    font-size:1.4em;
+      font-family: 'Roboto Slab', serif;
+}
+form .form-group label{
+      font-size:1.0em;
+      font-family: 'Roboto Slab', serif;
+
+}
+form .form-group input{
+    width:70%;
+    height:6%;
+}
+
+ /* Tablet */
+  @media(max-width: 1024px){
+    
+
+  }
+ @media(max-width: 768px){
+     .fashion{
+         
+     }
+     .fashion_side h3{
+     text-align:center;
+     font-size:1.5em;
+     font-weight:570;
+     font-family: 'Roboto Slab', serif;
+     letter-spacing: 0.6px;
+     line-height:1px;
+     padding-bottom:5%;
+
+ }
+  figure{
+     background-color:  rgba(24, 201, 210, 0.84);
+     width:50%;
+     height:50%;
+    margin-bottom:30%;
+    
+ }
+ figure img{
+      opacity:0.4;
+ }
+ figcaption{
+     position:absolute;
+     top:20px;
+     bottom:20px;
+     left:20px;
+     right:20px;
+        padding:10%;
+    
+     
+ }
+  figcaption ::before{
+       border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+  }
+   figcaption ::after{
+       border-left: 1px solid white;
+        border-right: 1px solid white;
+
+  }
+
+ figcaption h4{
+       font-family: 'Roboto Slab', serif;
+       font-size:1.7em;
+       font-weight:500;
+       color:white;
+ }
+
+ figcaption p{
+    
+ padding:10%;
+
+ }
+
+ figcaption p a{
+     padding: 8px 15px;
+      background-color:white;
+      text-transform:uppercase;
+      font-size:1.15em;
+      font-weight:400;
+      color:#333;
+ }
+
+
+.product_view{
+     padding:4%;
+     
+ }
+ .product_view h3{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+ }
+  .product_view h4{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+     color: rgba(24, 201, 210, 0.84);
+       text-align:center;
+   
+ }
+ #single_product{
+  border:1px solid #e0e0e0;
+  margin-left:20%;
+
+ }
+ #single_product img{
+     padding:5% 1% 5% 1%;
+   
+    
+ }
+ .shop_1 {
+     top:33%;
+     left:16%;
+     position:absolute;
+     font-size:1.04em;
+     font-weight:400;
+    
+     display:none;
+     
+ }
+
+ .shop_1 a{
+     padding:20% 40% 20% 40%;
+ 
+ }
+
+
+ .footer_col{
+     width:50%;
+     float:left;
+     padding-bottom:7%;
+    
+ }
+ .footer2{
+ border:none;
+
+ }
+ .footer2 h4, 
+ footer2 p a{
+     padding-left:0%;
+ }
+ 
+
+ }
+
+ /*mobile settings */
+
+ @media only screen and (max-width:480px){
+  #single_product2{
+     padding:none;
+     margin-left:none;
+     width:50%;
+   
+ }
+  #single_product h3{
+ font-size:1.0em;
+ }
+  #single_product img{
+     padding:5% 1% 5% 1%;
+     height:150px;
+ }
+  #view_product button{
+     background-color: rgba(24, 201, 210, 0.84);
+     margin-bottom:7%;
+     width:100%;
+     font-size:1.0em;
+     margin-left:0px;
+     padding-left:0px;
+ }
+#single_product1{
+    width:50%;
+}
+.products_cat{
+    width:70%;
+}
+#w_nav1{
+    margin-left:5px;
+}
+
+
+
+ #order #place .btn{
+    background-color: rgba(24, 201, 210, 0.84);
+    margin-left:0px;
+    height:50px;
+    box-shadow:1px 1px 1px 1px brown; 
+    border-radius: 20px;
+}
+ #order{
+    padding:0px;
+}
+.well{
+    border:1px solid black;
+    background-color:#e8ffff;
+    width:290px;
+    margin-right:2px;
+    padding-right:2px;
+}
+
+#body1{
+    background-size:100%;
+    height:300px;
+     width:100%;
+     background-repeat:no-repeat;
+
+    }
+   #header-msg{
+    color:white;
+    font-weight:bold;
+     padding:10%;
+    
+}
+#header-msg .header_msg1 h2{
+ font-size:1.6em;
+
+}
+#header-msg h3{
+    color:white;
+      font-weight:500;
+    letter-spacing:0.7rem;
+    font-size:1.6rem;
+    font-family:impact;
+  
+ 
+}
+
+#header-msg .enter{
+   
+    text-align:center
+}
+#header-msg .enter .btn{
+    width:70%;
+    height:20%;
+     
+   
+    
+    border-radius:10px;
+    
+    
+}
+#header-msg  .btn .enter h3 {
+      
+    letter-spacing:0.1rem;
+    font-size:1em;
+    font-family:impact;
+   
+
+}
+ form .form-group input{
+    width:100%;
+    height:6%;
+}
+#quantity input{
+    width:30%;
+}
+#orderModal.html{
+    width:50%;
+   
+}
+
+ #color1,#color2,#color3,#color4{
+     width:20px;
+     height:20px;
+ }
+
+ #terms img{
+     width:30px;
+     height:30px;
+ }
+ #product_colors i{
+    float:left;
+    margin-left:5%;
+    
+}
+  #single_product_right{
+    
+     margin-left:none;
+    
+ }
+ #single_product_right h2{
+     font-size:1.4em;
+ }
+  #single_product_right h5{
+     font-size:1.2em;
+ }
+ #single_product2 h3{
+     font-size:1.4em;
+
+ }
+ #single_product2 h4{
+     font-size:1.3em;
+
+ }
+ #Product_pageheader h2{
+     font-size:1.6em;
+ }
+ #single_product2 img{
+     width:80%;
+     height:250px;
+     
+     border-radius:20px;
+ }
+#place .btn{
+    background-color: rgba(24, 201, 210, 0.84);
+    margin-left:5%;
+    height:60px;
+    box-shadow:1px 1px 1px 1px brown; 
+    border-radius: 20px;
+}
+#place h3{
+    color:white;
+    text-transform:uppercase;
+    font-family:impact;
+    font-weight:300;
+    font-size:1em;
+}
+
+     .navbar-header h1{
+ font-size: 2em;
+
+}
+ 
+ .col-md-6{
+     width:100%;
+ }
+ .col-md-6 img{
+    
+     width:50%;
+ }
+ #bags, #glass{
+     width:50%;
+ }
+ #bags img, #glass img{
+     width:50%;
+ }
+
+ #top_nav{
+
+    color:black;
+    height: 100%;
+}
+ #nav_menu{
+    
+      margin:none;
+      margin-left:none;
+       letter-spacing:1px;
+      font-size:7.5px;
+           
+}
+#nav_menu li a{
+      color:white;
+      border-right:1px solid white;
+      height:7px;
+     line-height:7px;
+     float:left; 
+}
+#call{
+
+     padding-right:7%;
+}
+#call li a{
+    color:white;
+      line-height:7px;
+      font-size:7.3px;
+    
+   
+}
+.fashion{
+    width:100%;
+}
+ .fashion_side h3{
+     text-align:center;
+     font-size:1.5em;
+     font-weight:570;
+     font-family: 'Roboto Slab', serif;
+     letter-spacing: 0.6px;
+     line-height:1px;
+     padding-bottom:5%;
+
+ }
+ figcaption{
+     position:absolute;
+     top:20px;
+     bottom:20px;
+     left:20px;
+     right:20px;
+        padding:20%;
+    
+     
+ }
+  .middle_content{
+     padding-top:5%;
+    
+    
+ }
+.middle_side{
+     background: url(../images/middle.jpg) no-repeat;
+     min-height:15%;
+     background-size:cover;
+     
+ }
+ .middle_side h3{
+     color:white;
+     font-size:1.35em;
+     font-weight:500;
+     font-family: 'Roboto Slab', serif;
+     
+    
+ }
+  .middle_side p{
+     color:rgba(24, 201, 210, 0.84);
+     font-size:1em;
+     font-weight:500;
+  
+ }
+  .middle_text{
+     text-align:center;
+     padding-top:4.5em;
+     padding-bottom:1.5em;
+ }
+  .client_side{
+     padding: 2em 0 2em 0;
+ }
+
+
+   .tp--slider-multiple .item img{
+     max-height:30px; 
+      width:auto;
+ }
+
+   .footer_col{
+     width:100%;
+     padding-bottom:7%;
+    
+ }
+  .footer2{
+     border-left:none;
+     
+ }
+  .footer2 hr{
+     
+     margin-left:0%;
+     
+ }
+ .footer2 h4,
+ .footer2 p a{
+     padding-left:0%;
+ }
+
+ .social{
+     padding-left:30%;
+     padding-top:10px;
+
+ }
+ 
+ }

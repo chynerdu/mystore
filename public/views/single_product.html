@@ -1,0 +1,163 @@
+ <div class="col-md-12 col-sm-12 col-sx-12">
+     <div class="container">
+ <div id="Product_pageheader"><h2 class="lead" >{{contact.product}}<span class='fa fa-shopping-cart fa 2x' ></span></h2>
+  <id="place1"><button ng-click="product1()" class='btn btn-primary pull-left' ><span class='fa fa-arrow-left fa 2x'></span> Return back to store</button>
+<a href="#order"> <button  class='btn btn-primary pull-right' >Order Below<span class='fa fa-arrow-down fa 2x'></span></button></a></div>
+           <br><br><br>
+  
+ <div class="col-md-4 col-sm-4 col-xs-4" id="single_product2">
+ 
+                                     <img ng-src="{{contact.image}}" class="img-responsive ">
+                                    
+                                     <h3>Item:{{contact.product}}</h3>
+                                     <h4>Price: <i>NGN</i> {{contact.price}}</h4>
+                                     
+                                     </div>
+                                     
+                                    
+
+                                     <div id="single_product_right">
+                                     <div class="col-md-7 " id="single_p">
+                                       
+                                      
+                                           
+                             <h2>Consistent, Fast and Reliable.</h2>
+         <hr>
+       
+             <div id="terms">
+            <div class="col-md-6 aos-item" data-aos="fade-left">
+      <h3><span><img src="lib/images/cart48.PNG"></span> Checkout with ease.</h3>
+            </div>
+            <div class="col-md-6 aos-item" data-aos="fade-left">
+            <h3><span><img src="lib/images/48hours48.PNG"></span> Delivery within 48 hours.</h3>
+            </div>
+            <div class="col-md-6 aos-item" data-aos="fade-left"> <h3><span><img src="lib/images/pay48.PNG"></span>Payment on Delivery.</h3>
+            </div>
+             <div class="col-md-6 aos-item" data-aos="flip-down"><h3><span><img src="lib/images/refund48.PNG"></span>Quick refund for damaged item.</h3>
+               
+            </div>
+
+                
+            </div>  <br><br>                  
+                                         <div id="single_product2_desc">
+                                             <div class="row"> <hr>  </div>     
+                                         <h2><u>Product Description</u></h2><br>
+                                         <h5>{{contact.description}} </h5>
+                            <br>
+<br>
+                            <h3>Available Colors</h3><br><br>
+                            <div id="product_colors">
+                        
+							<i><div id="color1" href="#"></div></i>
+							<i><div id="color2" href="#"></div></i>
+							<i><div id="color3" href="#"></div></i>
+							<i><div id="color4" href="#"></div></i>
+					
+					
+                        </div>
+                        <br><br>
+                      
+                               
+               
+                  
+                            
+               
+
+                          
+<br><br>
+  <section id="order_now">
+ <div id="order">  <div id="place">
+    <button type="button" class="btn btn-default" ng-click="isCollapsed = !isCollapsed"><h3>Click to Place an order <span class="fa fa-shopping-cart"></span></h3></button></div>
+<hr>
+<div uib-collapse="isCollapsed " >
+<div class="well well-lg pull-left">  <h2>Enter Order Details</h2>
+                            <form name="myForm"> 
+                           <div class="form-group">
+                              
+                               <label for="comment1">Name</label>
+                               <input type="text" ng-model='Name' class="form-control order_info" name="uname" required autofocus>
+                               <span ng-show="myForm.$dirty && myForm.uname.$error.required">*This field is required</span>
+                               <span ng-show="myForm.$dirty && myForm.uname.$error.minlength">*Minimum length required is 4</span>
+                                <span ng-show="myForm.$dirty && myForm.uname.$invalid">Field is invalid</span>
+                               </div>
+                                <div class="form-group">
+                               <label for="comment1">Email Address</label>
+                               <input type="email" ng-model='email'class="form-control order_info" name="email" required>
+                                <span ng-show="myForm.$dirty && myForm.uname.$error.required">*This field is required</span>
+                               
+                                <span ng-show="myForm.$dirty && myForm.uname.$invalid">*Field is invalid</span>
+                               </div>
+                                <div class="form-group">
+                               <label for="comment1">phone number</label>
+                               <input type="number" ng-model="phone" name="phone" class="form-control order_info" ng-minlength="10"required>
+                               <span ng-show="myForm.$dirty && myForm.phone.$error.required">*This field is required</span>
+                               <span ng-show="myForm.$dirty && myForm.phone.$error.minlength">*Enter a valid phone number</span>
+                                <span ng-show="myForm.$dirty && myForm.phone.$invalid">Field is invalid</span>
+                               </div>
+                                 <div class="form-group">
+                               <label for="comment1">Delivery Address</label>
+                               <input type="text" ng-model="address" class="form-control order_info" required>
+                               <span ng-show="myForm.$dirty && myForm.uname.$error.required">*This field is required</span>
+                               </div>
+                                  <div class="form-group">
+                               <label for="comment1">State</label>
+                               <input type="text" ng-model="state" class="form-control order_info" required>
+                               </div>
+                                 <div class="form-group">
+                               <label for="comment1">quantity</label>
+                                <div id="quantity">
+                               <input  list="quant" name="quantity" ng-model='quantity'class="order_info" required ng-maxlength="10" >
+                               <span ng-show="myForm.$dirty && myForm.phone.$error.required">*This field is required</span>
+                                <span ng-show="myForm.$dirty && myForm.phone.$error.maxlength">*Sorry the maximum quantity is 10</span>
+                            <datalist id="quant"  >
+                                <option>1 </option>
+                                 <option>2</option>
+                                  <option>3</option>
+                                   <option>4</option>
+                                    <option>5</option>
+                                     <option>6</option>
+                                      <option>7</option>
+                                       <option>10</option>
+                            </datalist>
+                            </div>
+                               </div>
+                               <div id="submit">
+                             <button   ng-click="open(Name, email,phone, address, quantity, state)" ng-disabled="myForm.$invalid" class="btn btn-danger form-control" >Proceed</button>
+                             </div>  </form> </div> </div>
+</div>
+
+</section>
+<br>
+
+  
+  <script type="text/ng-template" id="orderModal.html">
+  <div ng-init='names=name'>
+      <div class="col-md-12">
+         
+   <div class="modal-header">
+       <h2><i>Thank You</i></h2></div>
+       <div class="modal-body">
+            <h3></h3>
+
+           <h4>Hello {{name3}}, thank you for placing an order</h4><br>
+           <h5> Your item will be delivered to your specified location within <i style="color:red">48hours</i></h5><br>
+           <h5>Check your email: <i style="color:brown; font-weight:600;">{{name4}}</i> for order details</h5>
+           <p>Thank you for shopping with us</p>
+          
+           </div>
+           <div class="modal-footer">
+                <h5>Sales Team:</h5>
+               <p>Klikstore.com</p>
+               <div id="modal_btn">
+               <button class="btn btn-default" ng-click="cancel()">Submit Order</button>
+               </div>
+               </div></div>
+</div></div>
+  </script>
+    
+      
+     
+     
+    </div>
+    </div>
+    </div>

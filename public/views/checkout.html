@@ -1,0 +1,96 @@
+ <div id="Product_pageheader"><h2 class="lead" >{{contact.product}}</h2>
+                <ul>
+    
+ <div class="col-md-4" id="single_product2">
+  
+                                     <img src="lib/images/s2.jpg" class="img-responsive ">
+                                     <div class="shop_1"><a href="#">Add to Cart</a></div>
+                                     <h3>Item:{{contact.product}}</h3>
+                                     <h4>Price: {{contact.price}}</h4>
+                                     
+                                     </div>
+                                      
+                                     </div>
+                                     <div class="col-md-6">
+                                      <h2>Checkout</h2>
+                        <table class='table table-hover table-bordered'>
+    <thead>
+        <tr>
+            <th>
+               Name 
+               
+                </th>
+                 <th>
+               Email Address
+               
+                </th>
+                 <th>
+               Phone number
+               
+                </th>
+                 <th>
+               Shipping Address 
+               
+                </th>
+                 <th>
+                 Quantity
+                </th>
+                
+                </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td>
+                  {{name}}
+                    </td>
+                      <td>
+                  {{email}}
+                    </td>
+                     <td>
+                  {{contact_no}}
+                    </td>
+                     <td>
+                  {{ship_add}}
+                    </td>
+                     <td>
+                  {{state}}
+                    </td>
+                     <td>
+                  {{quantity}}
+                    </td>
+                </tr>
+            </tbody>
+</table>
+
+                                
+
+
+
+  <button class="btn btn danger" data-toggle="modal" data-target="#modal2">  Click to drop your comments</button>
+                                   <div class="modal fade" id="modal2">
+                                   <div class="modal-dialog">
+                                       <div class="modal-content">
+                                           <div class="modal-header">
+                                               <button class="btn" data-dismiss="modal">&times;</button>
+                                               Fill the comment form</div>
+                                       <div class="modal-body">
+                                           <form>
+                           <div class="form-group">
+                               <label for="comment1">Name</label>
+                               <input type="text" id="comment1" class="form-control">
+                               </div>
+                                <div class="form-group">
+                               <label for="comment1">Email Address</label>
+                               <input type="email" id="comment1"class="form-control">
+                               </div>
+                                <div class="form-group">
+                               <label for="comment1">Comments</label>
+                               <input type="textarea" id="comment1" class="form-control">
+                               </div>
+                                <div class="form-group">
+                               <input type="submit" id="Submit" class=" btn btn-danger form-control">
+                               </div>
+                               </form>
+                              </div> </div></div></div></div>
+</div>
+                            

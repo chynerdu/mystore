@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html ng-app='ContactsApp' > 
+<head>
+   <title>E-commerce</title>
+<meta name="viewport" content="width=device-width ,initial-scale=1">
+    <base href='/'>
+    <link rel='stylesheet' href='lib/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="/lib/css/bootstrap.css">
+<link rel="stylesheet" href="lib/css/megamenu.css" >
+<link rel="stylesheet" href="lib/css/style.css">
+ <link rel="stylesheet" href="lib/css/owl-carousel/owl.carousel.min.css">
+  	<link rel="stylesheet" href="lib/css/owl-carousel/owl.theme.default.min.css">
+  	<link rel="stylesheet" href="lib/css/owl-carousel/owl.carousel.custom.css">
+       <link rel="stylesheet" href="/lib/angular-ui-bootstrap/dist /ui-bootstrap-csp.css">                      
+<link rel="stylesheet" href="lib/css/animate.css">
+<link rel="stylesheet" href="lib/css/lightbox.css">
+<link rel="stylesheet" href="lib/css/font-awesome.css">
+
+<link rel="stylesheet" href="lib/css/aos.css">
+<link rel="icon" type="image/png" href="images/logo2.png"/>
+
+
+</head>
+<body ><div id="main" ng-controller='ListController'>
+       <nav >
+      
+        
+        <div class="nav navbar-inverse" id="top_nav" >
+          
+            
+        <ul class="nav navbar-nav" id="nav_menu">
+            <li><a href="#" ng-click='move5()'>HELP</a></li>
+               <li><a href="#" ng-click='move4()'>CONTACT</a></li>
+                  <li><a href="#">DELIVERY INFORMATION</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav pull-right" id="call">
+                  <li><a href="tel:+2348175626127"><span class='fa fa-phone fa 4X'></span> +234-817-562-6127</a></li>
+                 
+                  </ul>
+             
+               </div> </nav>
+                <br>
+                <div class="container">
+                   
+                  <div class="col-md-12"  >
+                    <div class="navbar-header">
+                        <a href="#" ng-click='move3()' class="navbar-brand"><h1><span class='fa fa-home fa 2x'></span>Klik <span>Store</span></h1>
+                        </div></div></div>
+                        
+                        
+                                
+
+                                 <div class="container" >   
+                              <div class="col-md-12">
+                                
+                       
+                               <ul class="megamenu skyblue" ng-click='move()'>
+                                    <li class="active"><a href="#">HOME</a></li>
+                                    <li><a class="color2" href="#">NEW ARRIVALS</a>
+                                    <div class="megapanel" ng-click='move()'>
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+									
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+								
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+
+                                        </div></div></li>
+                                     <li><a class="color2" href="#">TUXEDO</a>
+                                      <div class="megapanel">
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+								
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+									
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+									
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+									
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+							
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+						
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+
+                                        </div></div>
+                                     </li>
+                                      <li><a class="color2" href="#">SWEATER</a>
+                                       <div class="megapanel">
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+								
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+							
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+					
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+						
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+           </div></div>
+                                        </li>
+                                       <li><a class="color2" href="#">SHOES</a>
+                                        <div class="megapanel">
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+								
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+							
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+						
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+							
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+
+                                        </div></div>
+                                       </li>
+                                        <li><a class="color2" href="#">GLASSES</a>
+                                         <div class="megapanel">
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+							
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+								
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+							
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+									
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+					
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+				
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+
+                                        </div></div>
+                                        </li>
+                                         <li><a class="color2" href="#">T-SHIRT</a>
+                                          <div class="megapanel">
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+						
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+						
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+							
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+					
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+
+                                        </div></div>
+                                         </li>
+                                          <li><a class="color2" href="#">WATCHES</a>
+                                             <div class="megapanel">
+                                        <div class="row">
+                                            <div class="col1">
+                                                	<div class="h_nav">
+                                                <h4>CLOTHING</h4>
+                                             	<ul>
+									<li><a href="#">new arrivals</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+							
+								</ul></div></div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                    <h4 > KIDS </h4>
+                                <ul>
+                                    <li><a href="#">Pools &amp; Tees</a></li>
+									<li><a href="#">shirts</a></li>
+									<li><a href="#">shorts</a></li>
+								
+                                    </ul>
+                                     </div>
+                                    </div>
+                                    <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>BAGS</h4>
+                                             <ul>
+                                    <li><a href="#">handbags</a></li>
+									<li><a href="#">slingbags</a></li>
+									<li><a href="#">clutches</a></li>
+					
+                                    </ul>
+                                        </div>
+                                        </div>
+                                                 <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCOUNTS</h4>
+                                             <ul>
+                                    <li><a href="#">login</a></li>
+									<li><a href="#">create an account</a></li>
+									<li><a href="#">create wishlist</a></li>
+							
+                                    </ul>
+                                        </div>
+                                        </div>
+                                           <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>ACCessories</h4>
+                                             <ul>
+                                    <li><a href="#">belts</a></li>
+									<li><a href="#">pens</a></li>
+									<li><a href="#">eyeglasses</a></li>
+						
+                                    </ul>
+                                        </div>
+                                        </div>
+                                          <div class="col1">
+                                        <div class="h_nav">
+                                            <h4>FOOTWEARS</h4>
+                                             <ul>
+                                    <li><a href="#">NEW ARRIVALS</a></li>
+									<li><a href="#">men</a></li>
+									<li><a href="#">women</a></li>
+								
+                                    </ul>
+                                        </div>
+                                        </div>
+                                              
+
+                                        </div></div>
+                                          </li>
+                                          
+                                          </ul>
+                                          </div></div></div></div>
+                                          <div ng-view=""></div>
+
+
+ <div class="col-md-12">
+                      <div class="client_side"> 
+                            <div class="container"> 
+                      <div class="clients">
+                    <div class="owl-carousel tp--slider-multiple" data-carousel-options='{ "autoplay":"true", "autoplayTimeout":"4000",  "items":"8", "mouseDrag": false, "touchDrag": false }'>
+                          <div class="item">
+                              <img src="lib/images/c1.png" style="width:34%;" class="img-responsive" alt="">
+                              </div>
+                               <div class="item">
+                              <img src="lib/images/c3.png" style="width:34%;" class="img-responsive" alt="">
+                              </div>
+                               <div class="item">
+                              <img src="lib/images/c2.png"  style="width:34%;"class="img-responsive" alt="">
+                              </div>
+                               <div class="item">
+                              <img src="lib/images/c4.png"  style="width:34%;"class="img-responsive" alt="">
+                              </div>
+                               <div class="item">
+                              <img src="lib/images/c2.png"  style="width:34%;" class="img-responsive"alt="">
+                              </div>
+                               <div class="item">
+                              <img src="lib/images/c1.png"  style="width:34%;" class="img-responsive"alt="">
+                              </div>
+                              <div class="item">
+                              <img src="lib/images/c3.png"  style="width:34%;" class="img-responsive" alt="">
+                              </div>
+                               <div class="item">
+                              <img src="lib/images/c4.png"  style="width:34%;" class="img-responsive" alt="">
+                              </div>
+                              </div>
+                              </div></div>
+             </div>
+             </div>
+
+
+
+                                            <div class="footer_side">         
+<div class="container">
+    
+    <div class="col-md-12">
+          <div id="redirect"  ng-click='move()'>
+        <div class="col-md-3 footer_col" ng-click='move()'>
+            <div class="footer1" ng-click='move()'>
+
+            <h4>ABOUT US</h4><hr >
+          
+                <p><a href="#">Who We Are</a></p>
+                <p><a href="#">Contact Us</a></p>
+                 <p><a href="#">Our Sites</a></p>
+                 <p><a href="#">In The News</a></p>
+                 <p><a href="#">Carrers</a></p>
+               
+                </div>
+            </div>
+            
+             <div class="col-md-3 footer_col"  >
+                  <div class="footer1 footer2">
+            <h4>YOUR ACCOUNT</h4><hr>
+          
+                <p><a href="#">your account</a></p>
+                <p><a href="#">peronal information</a></p>
+                <p><a href="#">Address</a></p>
+                 <p><a href="#">Discount</a></p>
+                <p><a href="#">track your order</a></p>
+                </ul>
+                </div>
+            </div>
+             <div class="col-md-3 footer_col"  >
+                  <div class="footer1 footer2">
+            <h4>SHOPPING</h4><hr>
+           
+                <p><a href="#">Accessories</a></p>
+                <p><a href="#">materials</a></p>
+                <p><a href="#">cloths</a></p>
+               <p><a href="#">bags</a></p>
+                <p><a href="#">footwears</a></p>
+              
+                </div>
+            </div>
+            <div class="col-md-3 footer_col">
+              <div class="footer1 footer2">
+            <h4>CATEGORIES</h4><hr>
+           
+                <p><a href="#">Sports shoes</a></p>
+                <p><a href="#">casual wears</a></p>
+                <p><a href="#">ethnic wear</a></p>
+               <p><a href="#">party wear</a></p>
+                <p><a href="#">formal shoes</a></p>
+              
+                </div>
+            </div>
+             <div class="col-md-3 footer_col"  >
+              <div class="footer1 footer2">
+            <h4>LIFE STYLE</h4><hr>
+           
+                <p><a href="#">beauty</a></p>
+                <p><a href="#">spa</a></p>
+                <p><a href="#">travel</a></p>
+               <p><a href="#">music</a></p>
+                <p><a href="#">trends</a></p>
+              
+                </div>
+            </div>
+    </div></div></div></div>
+    
+    <footer>
+        <div class="nav navbar-inverse" id="footer_nav">
+            <ul class="social">
+                <li><a class="soc1" href="#"></a></li>
+                <li><a class="soc2" href="#"></a></li>
+                <li><a class="soc2" href="#"></a></li>
+                </ul>
+        </div>
+        </footer>
+</body>
+
+
+        <script src='lib/jquery/dist/jquery.min.js'></script>
+        
+       
+     
+          <script src='lib/angular/angular.min.js'></script>
+           <script src='lib/ui-bootstrap-0.6.0.min.js'></script> 
+           <script src='lib/angular-ui-bootstrap-modal.js'></script> 
+             <script src='lib/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js'></script>
+           <script src='lib/angular-route/angular-route.min.js'></script>
+            <script src='lib/angular-resource/angular-resource.min.js'></script>
+            
+            
+                 
+           <script src='src/app.js'></script>
+            <script src='src/controllers.js'></script>
+            <script src='src/factories.js'></script>
+             <script src='src/filter.js'></script>
+               <script src='src/directives.js'></script>
+               <script src="js/jquery.js"></script>
+<script src="lib/js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+ <script src="lib/js/angular.min.js"></script>
+ <script src="lib/js/news.js"></script>
+
+ <script src="lib/js/jquery.nicescroll.js"></script>
+  <script src="lib/js/aos.js"></script>
+ <script src="lib/js/anijs-min.js"></script>
+<script src="lib/js/anijs.js"></script>
+
+ 
+<script src="lib/js/lightbox.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="lib/js/owl.carousel.min.js"></script>
+<script src="lib/js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $("html").niceScroll();
+    });
+    </script>
+       
+        </html>
