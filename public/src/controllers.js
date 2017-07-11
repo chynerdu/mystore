@@ -1,13 +1,13 @@
 angular.module('ContactsApp')
        .controller('ListController',  function($scope, Contact, $location){
            $scope.contacts =Contact.query();
-           $scope.fields = ['firstName', 'lastName'];
+           $scope.fields = [ 'Product Id','Product', 'Price'];
 
            $scope.sort =function(field){
                $scope.sort.field=field;
                $scope.sort.order= !$scope.sort.order;
            };
-           $scope.sort.field='firstName';
+           $scope.sort.field='id';
            $scope.sort.order=false;
 
       $scope.show=function(id){
@@ -28,28 +28,31 @@ angular.module('ContactsApp')
         $scope.move5=function(){
           $location.url('/notfound'); 
       };
+      $scope.move6=function(){
+          $location.url('/newproduct')
+      };
+       $scope.move7=function(){
+          $location.url('/list')
+      };
           
        })
          .controller('NewController',  function($scope, Contact, $location){
               $scope.contacts =Contact.query();
               $scope.contact =new Contact({
-                firstName:['', 'text'],
-                 lastName:['', 'text'],
+                product:'',
+                 price:'',
                   email:['', 'email'],
                    phone:['', 'tel'],
-                    birthday:['', 'date'],
-                     website:['', 'url'],
+                    description:'',
+                     image:'',
                       address:['', 'text']
               });
               $scope.save=function(){
-                  if ($scope.newContact.$invalid){
-                      $scope.$broadcast('record:invalid');
-                  }else{
                       $scope.contact.$save();
-                      $location.url('/contacts');
-                  }
+                      $location.url('/list');
+                  };
                 
-              };
+              
           $scope.show=function(id){
           $location.url('/store/' + id);
       };

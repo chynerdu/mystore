@@ -6,8 +6,7 @@ var express = require('express'),
     router = express.Router();
 
     router
-       
-         .use(function(req, res, next){
+       .use(function(req, res, next){
              if (!req.user) req.user={id:1};
              next();
          })

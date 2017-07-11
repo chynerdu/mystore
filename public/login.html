@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html  > 
+<head>
+   <title>klikstore-Admin</title>
+<meta name="viewport" content="width=device-width ,initial-scale=1">
+    <base href='/'>
+    <link rel='stylesheet' href='lib/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="/lib/css/bootstrap.css">
+<link rel="stylesheet" href="lib/css/megamenu.css" >
+
+ <link rel="stylesheet" href="lib/css/owl-carousel/owl.carousel.min.css">
+  	<link rel="stylesheet" href="lib/css/owl-carousel/owl.theme.default.min.css">
+  	<link rel="stylesheet" href="lib/css/owl-carousel/owl.carousel.custom.css">
+       <link rel="stylesheet" href="/lib/angular-ui-bootstrap/dist /ui-bootstrap-csp.css">                      
+<link rel="stylesheet" href="lib/css/animate.css">
+<link rel="stylesheet" href="lib/css/lightbox.css">
+<link rel="stylesheet" href="lib/css/font-awesome.css">
+
+<link rel="stylesheet" href="lib/css/aos.css">
+<link rel="icon" type="image/png" href="/lib/images/logo2.png"/>
+
+
+</head>
+<body  style="background-color:#fdfdfd;">
+ 
+                   
+                  
+                   <div class="col-md-10 " style="padding:5%;" >
+                      <h1 style="font-family:'Roboto Slab', serif;" ><span class='fa fa-home fa 2x'></span>Klik <span style="color:rgba(24, 201, 210, 0.84);">Store</span><sub><i> AdminPanel <span class='fa fa-cogs'></span></i></sub></h1>
+                       </div>
+
+                       
+
+<div class="col-md-10 col-md-offset-1" style="background-color:#ffffff;">
+<div class="admin_panel" style="padding:5%; padding-bottom:10%;">
+<div class="col-md-6 col-md-offset-2">
+<div class="newproduct" style=" padding:0.2%; padding-left:5%; border-radius:10px; margin-bottom: 15%; color:white; background-color:#404040; font-family:'Roboto Slab', serif;">
+<h2><div id='back'>login <span class='fa fa-sign-in'></span></div></h2>
+</div>
+<form action='/login' method='POST'>
+    <div class='form-group' id='product_form' style=" padding-bottom: 12%;">  
+        <label class='col-md-2 col-md-offset-2'> Username:</label>
+        <div class='col-md-6'>
+    <input type='text' name='username'  class='form-control' placeholder='Enter username' required/></div>
+    </div>
+     <div class='form-group' id='product_form'>
+          <label class='col-md-2 col-md-offset-2'> Password:</label>
+           <div class='col-md-6'>
+    <input type='password' name='password' class='form-control' placeholder='Enter password' required/></div>
+    </div>
+    
+           <div class='form-group' id='product_form' style=" padding-top: 12%; padding-bottom:18%;" >
+        <div class='col-md-4 col-md-offset-4'  id='submit_newproduct'>
+            <button class='btn btn-lg btn-primary'  >
+                Login</button>
+        </div></div></div>
+<br><br><br>
+
+    </form> </div><br><br>
+
+<!--
+    <div class="admin_panel"  style="padding:5%; padding-top:10%; ">
+<div class="col-md-6 col-md-offset-2">
+<div class="newproduct" style="padding:0.2%; padding-left:5%; border-radius:10px;  margin-bottom: 15%; color:white; background-color:#404040; font-family:'Roboto Slab', serif;">
+    <h2><div id='back'>Register</div></h2>
+</div>
+
+<form action='/register' method='POST'>
+    <div class='form-group' id='product_form' style=" padding-bottom: 10%;">  
+        <label class='col-md-2 col-md-offset-2'> Username:</label>
+        <div class='col-md-6'>
+    <input type='text' name='username'  class='form-control' placeholder='Enter username' required/></div>
+    </div>
+     <div class='form-group' id='product_form'  style="padding-bottom: 10%;">
+          <label class='col-md-2 col-md-offset-2'> Password:</label>
+           <div class='col-md-6'>
+    <input type='text' name='password' class='form-control' placeholder='Enter password' required/></div>
+    </div>
+    
+           <div class='form-group' id='product_form' style=" padding-top: 7%;" >
+        <div class='col-md-4 col-md-offset-4'  id='submit_newproduct'>
+            <button class='btn btn-lg btn-primary' >
+                Sign up</button>
+        </div></div></div>
+
+
+    </form> 
+-->
+     </div>
+</body>
+
+
+        <script src='lib/jquery/dist/jquery.min.js'></script>
+        
+       
+     
+          <script src='lib/angular/angular.min.js'></script>
+           <script src='lib/ui-bootstrap-0.6.0.min.js'></script> 
+           <script src='lib/angular-ui-bootstrap-modal.js'></script> 
+             <script src='lib/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js'></script>
+           <script src='lib/angular-route/angular-route.min.js'></script>
+            <script src='lib/angular-resource/angular-resource.min.js'></script>
+            
+            
+                 
+           <script src='src/app.js'></script>
+            <script src='src/controllers.js'></script>
+            <script src='src/factories.js'></script>
+             <script src='src/filter.js'></script>
+               <script src='src/directives.js'></script>
+               <script src="js/jquery.js"></script>
+<script src="lib/js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+ <script src="lib/js/angular.min.js"></script>
+ <script src="lib/js/news.js"></script>
+
+ <script src="lib/js/jquery.nicescroll.js"></script>
+  <script src="lib/js/aos.js"></script>
+ <script src="lib/js/anijs-min.js"></script>
+<script src="lib/js/anijs.js"></script>
+
+ 
+<script src="lib/js/lightbox.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="lib/js/owl.carousel.min.js"></script>
+<script src="lib/js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $("html").niceScroll();
+    });
+    </script>
+       
+        </html>

@@ -1,6 +1,15 @@
 .clearfix{
     clear:both;
 }
+#recommendation{
+    display:none;
+   font-family: 'Roboto Slab', serif;
+   font-weight:500;
+}
+#recommendation  i{
+    color:red;
+   font-family: 'Roboto Slab', serif;
+}
 
 #body1{
     background-size:100%;
@@ -645,6 +654,54 @@ form .form-group input{
     height:6%;
 }
 
+/* Admin page */
+.admin_panel{
+    padding-top:10%;
+}
+.admin_panel #product_form{
+    padding-top:5%;
+    padding-bottom:2%;
+}
+#submit_newproduct{
+   
+}
+#admin_header{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-weight:500;
+    font-size:2.5em;
+    background-color:#202020;
+    padding:0.5%;
+    padding-left:5%;
+    margin-bottom:3%;
+    border-radius:7px;
+}
+#admin_header button{
+    font-family: 'Roboto Slab', serif;
+  
+
+}
+#product_form label{
+      font-family: 'Roboto Slab', serif;
+    font-weight:500;
+    font-size:1.7em;
+}
+.newproduct{
+     color:white;
+    font-family: 'Roboto Slab', serif;
+    font-weight:500;
+    font-size:2.5em;
+    background-color:#202020;
+    padding:0.5%;
+    padding-left:5%;
+    margin-bottom:3%;
+    border-radius:7px;
+}
+.newproduct h2 #back{
+    margin-left:20%;
+}
+
+
  /* Tablet */
   @media(max-width: 1024px){
     
@@ -654,6 +711,22 @@ form .form-group input{
      .fashion{
          
      }
+     #admin_header h2{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    
+    font-size:0.5em;
+    background-color:#202020;
+    padding:0.5%;
+    padding-left:0px;
+    margin-bottom:3%;
+    border-radius:7px;
+}
+#admin_header button{
+    font-family: 'Roboto Slab', serif;
+  
+
+}
      .fashion_side h3{
      text-align:center;
      font-size:1.5em;
@@ -787,6 +860,44 @@ form .form-group input{
      width:50%;
    
  }
+ #recommendation{
+     display:block;
+ }
+ #recommendation h5{
+    margin-left:5%;
+   font-family: 'Roboto Slab', serif;
+   font-size:0.6em;
+   font-weight:500;
+}
+#recommendation  i{
+    color:red;
+   font-family: 'Roboto Slab', serif;
+}
+     #admin_header h2{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    
+    font-size:0.3em;
+    background-color:#202020;
+    padding:0.5%;
+    padding-left:0px;
+    margin-bottom:3%;
+    border-radius:7px;
+}
+#admin_header button{
+    font-family: 'Roboto Slab', serif;
+  
+
+}
+.newproduct h2 .btn{
+       padding:5px;
+      font-weight:0;
+       font-size:0.5em;
+}
+.newproduct h2{
+     font-size:0.5em;
+   
+}
   #single_product h3{
  font-size:1.0em;
  }
@@ -819,7 +930,8 @@ form .form-group input{
     margin-left:0px;
     height:50px;
     box-shadow:1px 1px 1px 1px brown; 
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size:0.5em;
 }
  #order{
     padding:0px;

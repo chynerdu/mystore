@@ -1,0 +1,35 @@
+<div class="admin_panel">
+<div class="col-md-8 col-md-offset-2">
+    <div id="admin_header">
+    <h2>KlikStore Admin  <span>   <button class="btn btn-primary" ng-click='move6()'><span class='fa fa-plus'>Add New Item</span></button>
+    <a href='/logout'><button  class='btn  btn-primary  pull-right'  >
+                Log out </button></a></span></h2>
+    </div>
+<input type='search' class='form-control' ng-model='query' placeholder='filter Product'><br><br>
+<table class='table table-hover table-bordered'>
+    <thead>
+        <tr >
+            <th  ng-repeat='field in fields ' ng-click='sort(field)'>
+                {{ field |labelCase }} 
+               
+                </th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr ng-click='show(X.id)' ng-repeat='X in contacts | filter: query |orderBy:sort.field:sort.order'>
+            
+                    <td>
+                       
+                    {{X.id}}
+                     </td>
+                <td>
+                    {{X.product}}
+                    </td>
+                    <td>
+                    {{X.price}}
+                    </td>
+                </tr>
+            </tbody>
+</table>
+</div>
+</div>
