@@ -1,9 +1,9 @@
 # mystore
 web application
 
-E-commerce angularJs project on Nodejs as Backend
+An angularJs e-commerce project utilizing Nodejs as Backend
 
-clone repo
+clone repo https://github.com/klikstore/mystore.git
 
 change your cmd directory to the cloned repo dir
 
