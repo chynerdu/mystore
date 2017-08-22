@@ -3,7 +3,7 @@
       $routeProvider
       .when('/', {
                     controller:'ListController',
-                    templateUrl: 'views/klikstore.html'
+                   templateUrl: 'views/homepage.html'
                 })
                 .when('/store', {
                     controller:'ListController',
