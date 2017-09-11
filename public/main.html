@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width ,initial-scale=1">
     <base href='/'>
     <link rel='stylesheet' href='lib/bootstrap/dist/css/bootstrap.min.css'>
+    <link type="text/css" rel="stylesheet" href="/lib/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="/lib/css/bootstrap.css">
 <link rel="stylesheet" href="lib/css/megamenu.css" >
 <link rel="stylesheet" href="lib/css/style.css">
@@ -22,10 +23,10 @@
 
 </head>
 <body ><div id="main" ng-controller='ListController'>
-       <nav >
+       <nav class='black'>
       
         
-        <div class="nav navbar-inverse" id="top_nav" >
+        <div class="nav navbar-custom" id="top_nav" >
           
             
         <ul class="nav navbar-nav" id="nav_menu">
@@ -58,8 +59,8 @@
                                 
                        
                                <ul class="megamenu skyblue" ng-click='move()'>
-                                    <li class="active"><a href="#">HOME</a></li>
-                                    <li><a class="color2" href="#">NEW ARRIVALS</a>
+                                    <li ><a class='active' href="#" >HOME</a></li>
+                                    <li><a  class="color2 " href="#">NEW ARRIVALS</a>
                                     <div class="megapanel" ng-click='move()'>
                                         <div class="row">
                                             <div class="col1">

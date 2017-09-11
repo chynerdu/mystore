@@ -75,7 +75,9 @@
 }
 
 
-
+nav{
+    background-color:transparent;
+}
 
     .navbar-header h2{
      font-size:1.5rem;
@@ -256,6 +258,10 @@
      padding-left: 30%;
 
   }
+
+  .products_cat label {
+  font-size:1.2em;
+}
   #products li a:hover{
      background-color: rgba(24, 201, 210, 0.84);
  }
@@ -422,22 +428,33 @@
  /*product page*/
 
  #Product_pageheader{
+     margin-top:0px;
+     padding-top:0px;
      text-align:center;
+    
      
+ }
+ #product_page h2{
+      font-family:'Square721 Cn Bt';
+      letter-spacing:1px;
  }
  #product_page{
      padding:5%;
-     padding-top:20%;
+     padding-top:5%;
      margin-left:5%;
 
  }
  #product_page label{
      font-size:1.5em;
-     letter-spacing:1px;
+     letter-spacing:1.2px;
+    
  }
 
  #product_page input{
      box-shadow: 1px 1px 1px 1px  rgba(24, 201, 210, 0.84);
+     font-size:1.2em;
+       font-family:'Square721 Cn Bt';
+        padding-left:3%;
  }
  #product_page h2{
      font-family: 'Roboto Slab', serif;
@@ -445,6 +462,9 @@
        font-weight:600;
        text-transform:uppercase;
        letter-spacing:1px;
+ }
+ #single_p{
+     padding-top:5%;
  }
  #single_product1{
      padding-bottom:5%;
@@ -460,7 +480,8 @@
  }
  #single_product2{
      padding:5%;
-     margin-left:10%;
+     margin-left:5%;
+     margin-right:5%;
    
  }
 
@@ -475,8 +496,8 @@
      border-radius:20px;
  }
 .well{
-    border:1px solid black;
-    background-color:#e8ffff;
+   
+    
 }
 .modal-header{
    background-color:#f0ffff; 
@@ -505,7 +526,7 @@
   }
  #w_nav1{
     
-     border:1px solid silver;
+    
      border-top:none;
  }
  #cat{
@@ -918,6 +939,10 @@ form .form-group input{
 }
 .products_cat{
     width:70%;
+   
+}
+.products_cat label {
+  font-size:1.2em;
 }
 #w_nav1{
     margin-left:5px;

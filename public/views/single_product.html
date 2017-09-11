@@ -5,7 +5,7 @@
 <a href="#order"> <button  class='btn btn-primary pull-right' >Order Below<span class='fa fa-arrow-down fa 2x'></span></button></a></div>
            <br><br><br>
   
- <div class="col-md-4 col-sm-4 col-xs-4" id="single_product2">
+ <div class="col-md-4 col-sm-4 col-xs-4 z-depth-3" id="single_product2">
  
                                      <img ng-src="{{contact.image}}" class="img-responsive ">
                                     
@@ -46,7 +46,7 @@
                             <br>
 <br>
                             <h3>Available Colors</h3><br><br>
-                            <div id="product_colors">
+                            <div id="product_colors" class='z-depth-3'>
                         
 							<i><div id="color1" href="#"></div></i>
 							<i><div id="color2" href="#"></div></i>
@@ -67,11 +67,11 @@
 <br><br>
   <section id="order_now">
  <div id="order">  <div id="place">
-    <button type="button" class="btn btn-sm btn-default" ng-click="isCollapsed = !isCollapsed"><h3>Click to Place an order <span class="fa fa-shopping-cart"></span></h3></button></div>
+    <button type="button" class="btn btn-sm btn-default" ng-click="isCollapsed = !isCollapsed"><h3 style='font-family:"Square721 Cn Bt";'>Click to Place an order <span class="fa fa-shopping-cart"></span></h3></button></div>
 <hr>
 <div uib-collapse="isCollapsed " >
-<div class="well well-lg pull-left">  <h2>Enter Order Details</h2>
-                            <form name="myForm"> 
+<div class="well well-lg pull-left  z-depth-3 green lighten-5">  <h2>Enter Order Details</h2>
+                            <form name="myForm" > 
                            <div class="form-group">
                               
                                <label for="comment1">Name</label>
